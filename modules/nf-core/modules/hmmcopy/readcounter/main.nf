@@ -32,4 +32,9 @@ process HMMCOPY_READCOUNTER {
         hmmcopy: $VERSION
     END_VERSIONS
     """
+
+    stub:
+    """
+    touch stub.wig versions.yml
+    """
 }

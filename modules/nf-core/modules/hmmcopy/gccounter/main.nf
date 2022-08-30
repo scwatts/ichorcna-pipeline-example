@@ -30,4 +30,9 @@ process HMMCOPY_GCCOUNTER {
         hmmcopy: $VERSION
     END_VERSIONS
     """
+
+    stub:
+    """
+    touch stub.gc.wig versions.yml
+    """
 }

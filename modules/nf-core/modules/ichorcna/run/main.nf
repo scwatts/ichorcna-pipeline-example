@@ -46,4 +46,12 @@ process ICHORCNA_RUN {
         ichorcna: $VERSION
     END_VERSIONS
     """
+
+    stub:
+    """
+    mkdir subdir/
+    touch subdir/stub.genomeWide.pdf
+
+    touch stub.cna.seg stub.params.txt versions.yml
+    """
 }

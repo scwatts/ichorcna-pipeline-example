@@ -37,4 +37,9 @@ process HMMCOPY_GENERATEMAP {
         hmmcopy: \$(echo $VERSION)
     END_VERSIONS
     """
+
+    stub:
+    """
+    touch stub.map.bw versions.yml
+    """
 }

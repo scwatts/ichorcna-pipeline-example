@@ -30,4 +30,9 @@ process HMMCOPY_MAPCOUNTER {
         hmmcopy: \$(echo $VERSION)
     END_VERSIONS
     """
+
+    stub:
+    """
+    touch stub.map.wig versions.yml
+    """
 }
